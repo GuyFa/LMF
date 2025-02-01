@@ -1,0 +1,1 @@
+Download the network weights from https://livebiuac-my.sharepoint.com/:f:/g/personal/guy_fargion_live_biu_ac_il/Er6V-EH2Ni9Ksuh-wvDQduIBV8TFpDeCJyrzAlXi1IiRhA?e=98c3mo, into this folder.

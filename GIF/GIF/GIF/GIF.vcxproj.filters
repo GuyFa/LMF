@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="CGAL">
+      <UniqueIdentifier>{0fabf23c-1795-4daf-9786-b1a159337a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{f375f229-c303-4c30-b425-d0d860b786c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pardiso">
+      <UniqueIdentifier>{a649909d-b782-441f-aeeb-084c9ef555bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D Triangulation">
+      <UniqueIdentifier>{f304a470-9c53-4ad9-b8c3-06dc8e85eaa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arrangement">
+      <UniqueIdentifier>{7c50ef0a-6f43-4313-9402-24fc8c2a6621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{199d43e3-66d2-4a43-a269-86506949f995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CGAL\Matlab">
+      <UniqueIdentifier>{327e3f5f-445e-4d79-ae93-7925441990f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CGAL\CGAL_Mesh.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGAL\CGAL_Face.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGAL\CGAL_Halfedge.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGAL\CGAL_Vertex.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\MatlabGMMDataExchange.h">
+      <Filter>CGAL\Matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\GMM_Macros.h">
+      <Filter>CGAL\Matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser\Seam.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser\Vec2.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser\Vec3.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser\Parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser\Cone.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Parser\MeshBuffer.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\Limit_Util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGAL\CGAL_Macros.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\pardiso.h">
+      <Filter>Pardiso</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\PardisoLinearSolver.h">
+      <Filter>Pardiso</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\MatlabInterface.h">
+      <Filter>CGAL\Matlab</Filter>
+    </ClInclude>
+    <ClInclude Include="GIF.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\triangulation.h">
+      <Filter>2D Triangulation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\CompilationAccelerator.h">
+      <Filter>Arrangement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGAL\CGAL_UTIL.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\Utilities.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\MeshAlgorithms.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CGAL\CGAL_Borders.h">
+      <Filter>CGAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\STL_Macros.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\stdafx.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\logging.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\triangle.h">
+      <Filter>2D Triangulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\MatlabGMMDataExchange.cpp">
+      <Filter>CGAL\Matlab</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser\Parser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser\Seam.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser\Vec2.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser\Vec3.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser\Cone.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Parser\MeshBuffer.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\Limit_Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\PardisoLinearSolver.cpp">
+      <Filter>Pardiso</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\MatlabInterface.cpp">
+      <Filter>CGAL\Matlab</Filter>
+    </ClCompile>
+    <ClCompile Include="GIF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\triangulation.cpp">
+      <Filter>2D Triangulation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\CompilationAccelerator.cpp">
+      <Filter>Arrangement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CGAL\CGAL_UTIL.cpp">
+      <Filter>CGAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\Utilities.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\MeshAlgorithms.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CGAL\CGAL_Borders.cpp">
+      <Filter>CGAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\stdafx.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\logging.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Utils\triangle.c">
+      <Filter>2D Triangulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

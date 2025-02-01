@@ -1,0 +1,9 @@
+uvs = array1([1:GIF.sysVars], :);
+uvs1 = uvs(:, 1)+1i*uvs(:, 2);
+[k, triangleAreas, sigma_1, sigma_2] = extract_k(GIF.F1, GIF.V, uvs1);
+sigma_1_squared = sigma_1 .^ 2;
+sigma_2_squared = sigma_2 .^ 2;
+part_a = (triangleAreas.' * (sigma_1_squared + sigma_2_squared));
+part_b = (triangleAreas.' * (1 ./ sigma_1_squared + 1 ./ sigma_2_squared));
+s=nthroot((part_b/part_a), 4);
+array1 = s * array1;

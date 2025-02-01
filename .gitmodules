@@ -1,0 +1,3 @@
+[submodule "CompMajor/libigl"]
+	path = CompMajor/libigl
+	url = https://github.com/Roipo/libigl.git
